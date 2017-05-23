@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0A871E1ECC75A70058DDA9 /* klasik_iphone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D0A871D1ECC75A60058DDA9 /* klasik_iphone.mp3 */; };
 		2D3C01A51EC97CBE009861EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C01A41EC97CBE009861EC /* AppDelegate.swift */; };
 		2D3C01A71EC97CBE009861EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C01A61EC97CBE009861EC /* ViewController.swift */; };
 		2D3C01AA1EC97CBE009861EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C01A81EC97CBE009861EC /* Main.storyboard */; };
 		2D3C01AC1EC97CBE009861EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C01AB1EC97CBE009861EC /* Assets.xcassets */; };
 		2D3C01AF1EC97CBE009861EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C01AD1EC97CBE009861EC /* LaunchScreen.storyboard */; };
+		2D3C01B71EC989C2009861EC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C01B61EC989C2009861EC /* ListViewController.swift */; };
+		2D3C01B91EC9B38C009861EC /* listTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C01B81EC9B38B009861EC /* listTableViewCell.swift */; };
+		2D3C01BC1EC9C255009861EC /* listCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C01BA1EC9C255009861EC /* listCoreDataModel.xcdatamodeld */; };
+		2D3C01BE1EC9E482009861EC /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C01BD1EC9E482009861EC /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0A871D1ECC75A60058DDA9 /* klasik_iphone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = klasik_iphone.mp3; sourceTree = "<group>"; };
 		2D3C01A11EC97CBE009861EC /* SwiftTapCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTapCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3C01A41EC97CBE009861EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D3C01A61EC97CBE009861EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		2D3C01AB1EC97CBE009861EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3C01AE1EC97CBE009861EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D3C01B01EC97CBE009861EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3C01B61EC989C2009861EC /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2D3C01B81EC9B38B009861EC /* listTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listTableViewCell.swift; sourceTree = "<group>"; };
+		2D3C01BB1EC9C255009861EC /* listCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = listCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		2D3C01BD1EC9E482009861EC /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		2D3C01A31EC97CBE009861EC /* SwiftTapCounter */ = {
 			isa = PBXGroup;
 			children = (
+				2D0A871D1ECC75A60058DDA9 /* klasik_iphone.mp3 */,
 				2D3C01A41EC97CBE009861EC /* AppDelegate.swift */,
 				2D3C01A61EC97CBE009861EC /* ViewController.swift */,
+				2D3C01B61EC989C2009861EC /* ListViewController.swift */,
+				2D3C01BD1EC9E482009861EC /* MenuTableViewCell.swift */,
+				2D3C01BA1EC9C255009861EC /* listCoreDataModel.xcdatamodeld */,
+				2D3C01B81EC9B38B009861EC /* listTableViewCell.swift */,
 				2D3C01A81EC97CBE009861EC /* Main.storyboard */,
 				2D3C01AB1EC97CBE009861EC /* Assets.xcassets */,
 				2D3C01AD1EC97CBE009861EC /* LaunchScreen.storyboard */,
@@ -123,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0A871E1ECC75A70058DDA9 /* klasik_iphone.mp3 in Resources */,
 				2D3C01AF1EC97CBE009861EC /* LaunchScreen.storyboard in Resources */,
 				2D3C01AC1EC97CBE009861EC /* Assets.xcassets in Resources */,
 				2D3C01AA1EC97CBE009861EC /* Main.storyboard in Resources */,
@@ -137,7 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3C01A71EC97CBE009861EC /* ViewController.swift in Sources */,
+				2D3C01B91EC9B38C009861EC /* listTableViewCell.swift in Sources */,
+				2D3C01BE1EC9E482009861EC /* MenuTableViewCell.swift in Sources */,
 				2D3C01A51EC97CBE009861EC /* AppDelegate.swift in Sources */,
+				2D3C01BC1EC9C255009861EC /* listCoreDataModel.xcdatamodeld in Sources */,
+				2D3C01B71EC989C2009861EC /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +319,22 @@
 				2D3C01B51EC97CBE009861EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D3C01BA1EC9C255009861EC /* listCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D3C01BB1EC9C255009861EC /* listCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 2D3C01BB1EC9C255009861EC /* listCoreDataModel.xcdatamodel */;
+			path = listCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2D3C01991EC97CBD009861EC /* Project object */;
 }
